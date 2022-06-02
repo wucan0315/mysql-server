@@ -12,3 +12,11 @@
 ```
  sudo apt install mysql-server
 ```
+- Step-3 檢查mysql狀態 
+```
+ sudo service mysql status
+```
+- Step-4 登入mysql 
+```
+
+```
