@@ -3,7 +3,6 @@
 
 ## 什麼是mysql
 一種資料庫
-![Image]
 ## 實作步驟
 - Step-1 更新套件
 ```
@@ -13,6 +12,7 @@
 ```
  sudo apt install mysql-server
 ```
+![Image]()
 - Step-3 檢查mysql狀態 
 ```
  sudo service mysql status
