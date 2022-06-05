@@ -2,7 +2,7 @@
 
 
 ## 什麼是mysql
-我也不知道 
+MySQL是由麥克爾·維德紐斯所創造的，原本是一個開放原始碼的關聯式資料庫管理系統，現在分為免費的社群版與收費的標準版、企業版等。
 ## 實作步驟
 - Step-1 更新套件
 ```
@@ -14,10 +14,11 @@
 ```
 ![Image](https://raw.githubusercontent.com/wucan0315/wucan0315/main/%E5%AE%89%E8%A3%9Dmysql.jpg)
 - Step-3 檢查mysql狀態 
-出現綠色的Active表示mysql正在運行
+**出現綠色的Active表示mysql正在運行
 ```
  sudo service mysql status
 ```
+![Imag](https://raw.githubusercontent.com/wucan0315/wucan0315/main/%E6%AA%A2%E6%9F%A5mysql%E7%8B%80%E6%85%8B.jpg)
 - Step-4 登入mysql 
 ```
  sudo mysql -u root
