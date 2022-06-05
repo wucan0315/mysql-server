@@ -1,5 +1,5 @@
 # mysql-server
-b1042034 b1042037
+
 * [mysql介紹](#mysql介紹)
 * [實作步驟](#實作步驟)
 * [參考資料](#參考資料)
@@ -76,3 +76,4 @@ SELECT * FROM `users`;
 [https://ui-code.com/archives/293](https://ui-code.com/archives/293)  <br>
 [https://magiclen.org/ubuntu-server-mysql-php/](https://magiclen.org/ubuntu-server-mysql-php/)  <br>
 [https://markdown.tw/](https://markdown.tw/)  <br>
+b1042037吳奕燦 b1042034章嘉妏 b1042041卓家葳 
