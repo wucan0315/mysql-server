@@ -1,7 +1,11 @@
 # mysql-server
+b1042034 b1042037
+* [mysql介紹](#mysql介紹)
+* [實作步驟](#實作步驟)
+* [參考資料](#參考資料)
 
-
-## 什麼是mysql
+ 
+## mysql介紹
 MySQL是由麥克爾·維德紐斯所創造的，原本是一個開放原始碼的關聯式資料庫管理系統，現在分為免費的社群版與收費的標準版、企業版等。
 ## 實作步驟
 - Step-1 更新套件
@@ -67,3 +71,8 @@ SELECT * FROM `users`;
  quit
 ```
 ![Image](https://raw.githubusercontent.com/wucan0315/wucan0315/main/%E9%9B%A2%E9%96%8Bmysql.jpg)
+
+## 參考資料
+[https://ui-code.com/archives/293](https://ui-code.com/archives/293)  <br>
+[https://magiclen.org/ubuntu-server-mysql-php/](https://magiclen.org/ubuntu-server-mysql-php/)  <br>
+[https://markdown.tw/](https://markdown.tw/)  <br>
