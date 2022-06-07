@@ -6,8 +6,10 @@
 
  
 ## mysql介紹
-MySQL是由麥克爾·維德紐斯所創造的，原本是一個開放原始碼的關聯式資料庫管理系統，現在分為免費的社群版與收費的標準版、企業版等。
-關聯式資料庫是以資料之間的關聯性為基礎架構的資料庫系統，通常把資料分類為資料表（table），然後再透過資料表之間的關聯性做查詢。
+MySQL是由麥克爾·維德紐斯所創造的，原本是一個開放原始碼的關聯式資料庫管理系統，現在分為免費的社群版與收費的標準版、企業版等。<br>
+關聯式資料庫 <br>
+是以資料之間的關聯性為基礎架構的資料庫系統，通常把資料分類為資料表（table），然後再透過資料表之間的關聯性做查詢。
+
 ## 實作步驟
 - Step-1 更新套件
 ```
@@ -23,7 +25,8 @@ MySQL是由麥克爾·維德紐斯所創造的，原本是一個開放原始碼�
 ```
  sudo service mysql status
 ```
-![Imag](https://raw.githubusercontent.com/wucan0315/wucan0315/main/%E6%AA%A2%E6%9F%A5mysql%E7%8B%80%E6%85%8B.jpg)
+![Imag](https://raw.githubusercontent.com/wucan0315/wucan0315/main/%E6%AA%A2%E6%9F%A5mysql%E7%8B%80%E6%85%8B.jpg)<br>
+ctrl+c即可跳出
 - Step-4 登入mysql 
 ```
  sudo mysql -u root
