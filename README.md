@@ -61,7 +61,7 @@ create table users(
 
 - Step-9  插入學號至users表格中
 ```
- insert into students values (1, 'b1042037') , (2, 'b1042034') , (3, 'b1042042');
+ insert into users values (1, 'b1042037') , (2, 'b1042034') , (3, 'b1042042');
 ```
 ![Image](https://raw.githubusercontent.com/wucan0315/wucan0315/main/%E5%8A%A0%E5%85%A5%E5%AD%B8%E8%99%9F%E8%87%B3%E8%A1%A8%E6%A0%BC%E4%B8%AD.jpg)
 
