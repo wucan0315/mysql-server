@@ -84,5 +84,5 @@ SELECT * FROM `users`;
 b1042037吳奕燦 b1042034章嘉妏 b1042041卓家葳 
 ## 刪除資料夾
 ```
-drop table students;
+drop table users;
 ```
