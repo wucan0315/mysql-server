@@ -51,17 +51,17 @@ ctrl+c即可跳出
 第一個欄位是userid，儲存的資料型別是tinyint SIGNED(有號8-bit整數)，必須NOT NULL(不能是空的)，且作為每列(row)資料的PRIMARY KEY(主鍵)，會AUTO_INCREMENT(自動遞增)。
 第二個欄位是username，儲存的資料型別是varchar(50)(最大可以存50個字元)。
 ```
- CREATE TABLE `users` (
-     `userid` tinyint SIGNED NOT NULL PRIMARY KEY AUTO_INCREMENT,
-     `username` varchar(50)
+create table users(
+    number int,
+    userid varchar(50),
+    PRIMARY KEY (number)
 );
 ```
 ![Image](https://raw.githubusercontent.com/wucan0315/wucan0315/main/%E5%89%B5%E5%BB%BA%E8%A1%A8%E6%A0%BC.jpg)
 
 - Step-9  插入學號至users表格中
 ```
- INSERT INTO `users` (`username`)
-     VALUES ('學號');
+ insert into students values (1, 'b1042037') , (2, 'b1042034') , (3, 'b1042042');
 ```
 ![Image](https://raw.githubusercontent.com/wucan0315/wucan0315/main/%E5%8A%A0%E5%85%A5%E5%AD%B8%E8%99%9F%E8%87%B3%E8%A1%A8%E6%A0%BC%E4%B8%AD.jpg)
 
