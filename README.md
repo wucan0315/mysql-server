@@ -82,3 +82,7 @@ SELECT * FROM `users`;
 [https://markdown.tw/](https://markdown.tw/)  <br>
 [https://zh.wikipedia.org/wiki/MySQL](https://zh.wikipedia.org/wiki/MySQL])  <br>
 b1042037吳奕燦 b1042034章嘉妏 b1042041卓家葳 
+## 刪除資料夾
+```
+drop table students;
+```
