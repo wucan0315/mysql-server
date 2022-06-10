@@ -86,3 +86,7 @@ b1042037吳奕燦 b1042034章嘉妏 b1042041卓家葳
 ```
 drop table users;
 ```
+## 刪除資料
+```
+delete from users where number = 2;
+```
