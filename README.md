@@ -3,7 +3,7 @@
 * [mysql介紹](#mysql介紹)
 * [實作步驟](#實作步驟)
 * [參考資料](#參考資料)
-
+* [組員名單](#組員名單)
  
 ## mysql介紹
 * MySQL是由麥克爾·維德紐斯所創造的，原本是一個開放原始碼的關聯式資料庫管理系統，現在分為免費的社群版與收費的標準版、企業版等。<br>
@@ -48,7 +48,7 @@ ctrl+c即可跳出
 ![Image](https://raw.githubusercontent.com/wucan0315/wucan0315/main/%E7%99%BB%E9%99%B8%E8%B3%87%E6%96%99%E5%BA%AB.jpg)
 - Step-8 建立表格 
 以下SQL敘述，可以建立名為users的表格，這個表格有兩個欄位。
-第一個欄位是userid，儲存的資料型別是tinyint SIGNED(有號8-bit整數)，必須NOT NULL(不能是空的)，且作為每列(row)資料的PRIMARY KEY(主鍵)，會AUTO_INCREMENT(自動遞增)。
+第一個欄位是userid，儲存的資料型別是int，且作為每列(row)資料的PRIMARY KEY(主鍵)。
 第二個欄位是username，儲存的資料型別是varchar(50)(最大可以存50個字元)。
 ```
 create table users(
@@ -57,19 +57,30 @@ create table users(
     PRIMARY KEY (number)
 );
 ```
-![Image](https://raw.githubusercontent.com/wucan0315/wucan0315/main/%E5%89%B5%E5%BB%BA%E8%A1%A8%E6%A0%BC.jpg)
+![Image](![image](https://user-images.githubusercontent.com/106713917/173044372-6c92a23c-2169-48d5-b73c-25be337ca74f.png)
 
 - Step-9  插入學號至users表格中
 ```
  insert into users values (1, 'b1042037') , (2, 'b1042034') , (3, 'b1042042');
 ```
-![Image](https://raw.githubusercontent.com/wucan0315/wucan0315/main/%E5%8A%A0%E5%85%A5%E5%AD%B8%E8%99%9F%E8%87%B3%E8%A1%A8%E6%A0%BC%E4%B8%AD.jpg)
+![Image](https://user-images.githubusercontent.com/106713917/173044644-5949a608-1141-43be-85d7-e7a01be631de.png)
 
 - Step-10 查看users表格中的資料
 ```
 SELECT * FROM `users`;
+![image](https://user-images.githubusercontent.com/106713917/173044745-75d376e4-2728-461d-b6b7-7141e181cbec.png)
+
+## 刪除number為2的資料
 ```
-![Image](https://raw.githubusercontent.com/wucan0315/wucan0315/main/%E6%9F%A5%E7%9C%8B%E8%A1%A8%E6%A0%BC%20.jpg)
+delete from users where number = 2;
+```
+##再次查看表格
+![image](https://user-images.githubusercontent.com/106713917/173045075-9646ae21-44e1-48c9-a234-7c4e27237d22.png)
+## 刪除user的資料
+```
+drop table users;
+```
+![image](https://user-images.githubusercontent.com/106713917/173046942-6a3a3b88-2912-43a3-ac92-60ea029934da.png)
 - Step-11 退出mysql 
 ```
  quit
@@ -81,12 +92,8 @@ SELECT * FROM `users`;
 [https://magiclen.org/ubuntu-server-mysql-php/](https://magiclen.org/ubuntu-server-mysql-php/)  <br>
 [https://markdown.tw/](https://markdown.tw/)  <br>
 [https://zh.wikipedia.org/wiki/MySQL](https://zh.wikipedia.org/wiki/MySQL])  <br>
+[https://clay-atlas.com/blog/2019/11/21/sql-table-create-insert-update-remove-delete/](https://clay-atlas.com/blog/2019/11/21/sql-table-create-insert-update-remove-delete/)  <br>
+
+## 組員名單 
 b1042037吳奕燦 b1042034章嘉妏 b1042041卓家葳 
-## 刪除資料夾
-```
-drop table users;
-```
-## 刪除資料
-```
-delete from users where number = 2;
-```
+
