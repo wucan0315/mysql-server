@@ -34,22 +34,22 @@ ctrl+c即可跳出
 ![Image](https://raw.githubusercontent.com/wucan0315/wucan0315/main/%E7%99%BB%E9%99%B8mysql%E4%BC%BA%E6%9C%8D%E5%99%A8.jpg)
 - Step-5 查看mysql伺服器中所有資料 
 ```
- SHOW DATABASES;
+ show databases;
 ``` 
-- Step-6 建立名為dbname的資料庫
+- Step-6 建立名為test的資料庫
 ```
- CREATE DATABASE `dbname`;
+ create database `test`;
 ```
 ![Image](https://raw.githubusercontent.com/wucan0315/wucan0315/main/%E5%BB%BA%E7%AB%8B%E8%B3%87%E6%96%99%E5%BA%AB.jpg)
-- Step-7 進入名為dbname的資料庫
+- Step-7 進入名為test的資料庫
 ```
- USE `dbname`;
+ USE `test`;
 ```
 ![Image](https://raw.githubusercontent.com/wucan0315/wucan0315/main/%E7%99%BB%E9%99%B8%E8%B3%87%E6%96%99%E5%BA%AB.jpg)
 - Step-8 建立表格 
 以下SQL敘述，可以建立名為users的表格，這個表格有兩個欄位。
-第一個欄位是userid，儲存的資料型別是int，且作為每列(row)資料的PRIMARY KEY(主鍵)。
-第二個欄位是username，儲存的資料型別是varchar(50)(最大可以存50個字元)。
+第一個欄位是number，儲存的資料型別是int，且作為每列(row)資料的PRIMARY KEY(主鍵)。
+第二個欄位是userid，儲存的資料型別是varchar(50)(最大可以存50個字元)。
 ```
 create table users(
     number int,
@@ -68,20 +68,21 @@ create table users(
 - Step-10 查看users表格中的資料
 ```
 SELECT * FROM `users`;
+```
 ![image](https://user-images.githubusercontent.com/106713917/173044745-75d376e4-2728-461d-b6b7-7141e181cbec.png)
 
-## 刪除number為2的資料
+- Step-11 刪除number為2的資料
 ```
 delete from users where number = 2;
 ```
-##再次查看表格
-![image](https://user-images.githubusercontent.com/106713917/173045075-9646ae21-44e1-48c9-a234-7c4e27237d22.png)
-## 刪除user的資料
+- Step-12 再次查看表格  <br>
+![image](https://user-images.githubusercontent.com/106713917/173045075-9646ae21-44e1-48c9-a234-7c4e27237d22.png)  
+- Step-13 刪除user的資料
 ```
 drop table users;
 ```
 ![image](https://user-images.githubusercontent.com/106713917/173046942-6a3a3b88-2912-43a3-ac92-60ea029934da.png)
-- Step-11 退出mysql 
+- Step-14 退出mysql 
 ```
  quit
 ```
