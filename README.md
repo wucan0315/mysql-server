@@ -4,6 +4,7 @@
 * [實作步驟](#實作步驟)
 * [參考資料](#參考資料)
 * [組員名單](#組員名單)
+* [影片連結](#影片連結)
  
 ## mysql介紹
 * MySQL是由麥克爾·維德紐斯所創造的，原本是一個開放原始碼的關聯式資料庫管理系統，現在分為免費的社群版與收費的標準版、企業版等。<br>
@@ -36,16 +37,20 @@ ctrl+c即可跳出
 ```
  show databases;
 ``` 
+![image](https://user-images.githubusercontent.com/106713917/173201715-113b7055-8740-4e9f-89e1-186b194124c4.png)
+
 - Step-6 建立名為test的資料庫
 ```
  create database `test`;
 ```
-![Image](https://raw.githubusercontent.com/wucan0315/wucan0315/main/%E5%BB%BA%E7%AB%8B%E8%B3%87%E6%96%99%E5%BA%AB.jpg)
+![image](https://user-images.githubusercontent.com/106713917/173201731-3d0e2e91-75db-4c57-a9a2-720847a6d618.png)
+
 - Step-7 進入名為test的資料庫
 ```
  USE `test`;
 ```
-![Image](https://raw.githubusercontent.com/wucan0315/wucan0315/main/%E7%99%BB%E9%99%B8%E8%B3%87%E6%96%99%E5%BA%AB.jpg)
+![image](https://user-images.githubusercontent.com/106713917/173201749-55c7100b-df15-43b2-8900-2d521327daa7.png)
+
 - Step-8 建立表格 
 以下SQL敘述，可以建立名為users的表格，這個表格有兩個欄位。
 第一個欄位是number，儲存的資料型別是int，且作為每列(row)資料的PRIMARY KEY(主鍵)。
@@ -57,7 +62,7 @@ create table users(
     PRIMARY KEY (number)
 );
 ```
-![Image](![image](https://user-images.githubusercontent.com/106713917/173044372-6c92a23c-2169-48d5-b73c-25be337ca74f.png)
+![Image](https://user-images.githubusercontent.com/106713917/173044372-6c92a23c-2169-48d5-b73c-25be337ca74f.png)
 
 - Step-9  插入學號至users表格中
 ```
@@ -75,13 +80,13 @@ SELECT * FROM `users`;
 ```
 delete from users where number = 2;
 ```
-- Step-12 再次查看表格  <br>
+- Step-12 再次查看表格  
 ![image](https://user-images.githubusercontent.com/106713917/173045075-9646ae21-44e1-48c9-a234-7c4e27237d22.png)  
 - Step-13 刪除user的資料
 ```
 drop table users;
 ```
-![image](https://user-images.githubusercontent.com/106713917/173046942-6a3a3b88-2912-43a3-ac92-60ea029934da.png)
+![image](https://user-images.githubusercontent.com/106713917/173201773-05a57a8b-0308-4c05-b67a-e8716630cd86.png)
 - Step-14 退出mysql 
 ```
  quit
@@ -94,9 +99,7 @@ drop table users;
 [https://markdown.tw/](https://markdown.tw/)  <br>
 [https://zh.wikipedia.org/wiki/MySQL](https://zh.wikipedia.org/wiki/MySQL])  <br>
 [https://clay-atlas.com/blog/2019/11/21/sql-table-create-insert-update-remove-delete/](https://clay-atlas.com/blog/2019/11/21/sql-table-create-insert-update-remove-delete/)  <br>
-
+[https://www.yannyann.com/2018/08/remove-mysql-mariadb-completely-and-recover/](https://www.yannyann.com/2018/08/remove-mysql-mariadb-completely-and-recover/)  <br>
 ## 組員名單 
 b1042037吳奕燦 b1042034章嘉妏 b1042041卓家葳 
-```
-https://www.yannyann.com/2018/08/remove-mysql-mariadb-completely-and-recover/
-```
+## 影片連結
