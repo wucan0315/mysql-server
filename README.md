@@ -97,4 +97,6 @@ drop table users;
 
 ## 組員名單 
 b1042037吳奕燦 b1042034章嘉妏 b1042041卓家葳 
-
+```
+https://www.yannyann.com/2018/08/remove-mysql-mariadb-completely-and-recover/
+```
